@@ -3,7 +3,7 @@ Make sure to be connected via USB
 
 Also, you can set a custom place on your display that you want to specifically mirror to your oled.
 
-Side note: use 230400–460800 baud for more stable video transmission - Make sure to match for the both codes.
+Side note: use 230400–460800 baud rate for more stable video transmission - Make sure to match for the both codes.
 
-BTW THE CODE SHOULD WORK OUT OF THE BOX!! Just flash and run the py script. If it doesn't, here's how to fix:
+BTW THE CODE SHOULD WORK OUT OF THE BOX!! Just flash and run the py script. If it doesn't work, here's how to fix:
 List the USBtoUART chips and find your ESP32 or any microcontroller that works with my code, and copy the output and replace it in the python script.
