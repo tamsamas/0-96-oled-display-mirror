@@ -6,7 +6,7 @@ Also, you can set a custom place on your display that you want to specifically m
 Side note: use 230400–460800 baud rate for more stable video transmission - Make sure to match for the both codes.
 If the image is glitched out, try 115200. If you're on linux, you're gonna have some issues at first. Try the code made specifically for linux machines.
 
-BTW THE CODE SHOULD WORK OUT OF THE BOX!! Just flash and run the py script. If it doesn't work, here's how to fix:
+BTW THE CODE SHOULD WORK OUT OF THE BOX!! (on macOS at least) Just flash and run the py script. If it doesn't work, here's how to fix:
 List the USBtoUART chips and find your ESP32 or any microcontroller that works with my code, and copy the output and replace it in the python script.
 Example:
 
