@@ -2,3 +2,5 @@ I made this out of boredom and feel free to make changes to the code. I also use
 Make sure to be connected via USB
 
 Also, you can set a custom place on your display that you want to specifically mirror to your oled.
+
+Side note: use 230400–460800 baud for more stable video transmission. Make sure to match for the both codes.
