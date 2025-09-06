@@ -1,4 +1,4 @@
-I made this out of boredom and feel free to make changes to the code. I also used an ESP32 to do this, with the oled display connected to it. (i personally used pin 22 on the ESP32 for the SCL pin on the oled, and pin 21 for SDA.) Run the python script on your computer and flash the ino file to your microcontroller.
+I made this out of boredom and feel free to make changes to the code. I also used an ESP32 to do this, with the OLED display connected to it. (i personally used pin 22 on the ESP32 for the SCL pin on the oled, and pin 21 for SDA.) Run the python script on your computer and flash the ino file to your microcontroller.
 Make sure to be connected via USB
 
 Also, you can set a custom place on your display that you want to specifically mirror to your oled.
