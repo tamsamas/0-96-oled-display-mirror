@@ -15,3 +15,5 @@ WINDOWS: SERIAL_PORT = "COM5"
 LINUX: SERIAL_PORT = "/dev/ttyUSB0"
 
 MACOS: SERIAL_PORT = "/dev/tty.SLAB_USBtoUART"
+
+Btw if ur on windows, try linux or the macos code and see which works the best for you. This code was tested and made on macOS.
