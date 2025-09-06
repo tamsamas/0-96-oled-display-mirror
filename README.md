@@ -1,1 +1,2 @@
 I made this out of boredom and feel free to make changes to the code. I also used an ESP32 to do this, with the oled display connected to it. Run the python script on your computer and flash the ino file to your microcontroller.
+Make sure to be connected via USB
