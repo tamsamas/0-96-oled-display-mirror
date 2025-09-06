@@ -9,26 +9,22 @@ FPS = 20
 OLED_WIDTH = 128
 OLED_HEIGHT = 64
 
-CROP_BOX = (0, 50, 480, 240)
+CROP_BOX = None
 
 ser = serial.Serial(SERIAL_PORT, BAUD_RATE)
 time.sleep(2)
 
 def preprocess_image(img):
-    # Convert to grayscale
     img = img.convert("L")
     
-    # Resize with smoothing
     img = img.resize((OLED_WIDTH, OLED_HEIGHT), Image.LANCZOS)
     
-    # Convert to 1-bit monochrome with dithering
     img = img.convert("1", dither=Image.FLOYDSTEINBERG)
     
     return img
 
 try:
     while True:
-        # Capture screen
         img = ImageGrab.grab(bbox=CROP_BOX)
         img = preprocess_image(img)
 
