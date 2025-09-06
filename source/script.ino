@@ -8,7 +8,7 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire);
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(460800);
   if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     for(;;);
   }
