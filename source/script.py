@@ -4,7 +4,7 @@ from PIL import ImageGrab, Image
 import numpy as np
 
 SERIAL_PORT = "/dev/tty.SLAB_USBtoUART"
-BAUD_RATE = 115200
+BAUD_RATE = 460800
 FPS = 20
 OLED_WIDTH = 128
 OLED_HEIGHT = 64
