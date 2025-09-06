@@ -9,7 +9,7 @@ FPS = 20
 OLED_WIDTH = 128
 OLED_HEIGHT = 64
 
-CROP_BOX = None
+CROP_BOX = None #to mirror a custom part of your main display, use (0, 0, 480, 240) instead of "None".
 
 ser = serial.Serial(SERIAL_PORT, BAUD_RATE)
 time.sleep(2)
@@ -28,7 +28,6 @@ try:
         img = ImageGrab.grab(bbox=CROP_BOX)
         img = preprocess_image(img)
 
-        # Convert to bytes for ESP32
         arr = np.array(img, dtype=np.uint8)
         data = np.packbits(arr, axis=1).tobytes()
 
