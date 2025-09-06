@@ -6,4 +6,4 @@ Also, you can set a custom place on your display that you want to specifically m
 Side note: use 230400–460800 baud for more stable video transmission - Make sure to match for the both codes.
 
 BTW THE CODE SHOULD WORK OUT OF THE BOX!! Just flash and run the py script. If it doesn't, here's how to fix:
-List the USBtoUART chips and copy the output and replace it in the python script.
+List the USBtoUART chips and find your ESP32 or any microcontroller that works with my code, and copy the output and replace it in the python script.
